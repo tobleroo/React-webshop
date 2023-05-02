@@ -1,38 +1,98 @@
-.App {
-  text-align: center;
+
+
+/* basic css  */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  background-color: #898282;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+img{
+    width: 250px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+/* navbar */
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;
+    background-color: antiquewhite;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.navbar button{
+    font-size: x-large;
+    margin: 10px 0;
+    padding: 1rem;
+    text-decoration: none;
+    color: black;
+    border: none;
+    background-color: rgb(225, 153, 59);
+    border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+.navbar button:hover{
+    cursor: pointer;
+    background-color: rgb(16, 29, 29);
+    color: white;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.navbar a:hover{
+    color: #898282;
+    background-color: limegreen;
 }
+
+/* shop page */
+
+.shopPage, .cart{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.products{
+    display: flex;
+    flex-direction: row;
+}
+
+.product{
+    border: solid black 1px;
+    margin: 1rem;
+    padding: 1rem;
+    background-color: antiquewhite;
+}
+
+/* cart page */
+
+.buttonBox{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+#buyBtn{
+    background-color: limegreen;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+#clearBtn{
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: x-large;
+}
+
+#buyBtn:hover, #clearBtn:hover{
+    cursor: pointer;
+    background-color: rgb(16, 29, 29);
+}
+
+
+
