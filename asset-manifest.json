@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/static/css/main.cd908a6d.css",
-    "main.js": "/static/js/main.5ea0d9eb.js",
-    "index.html": "/index.html",
-    "main.cd908a6d.css.map": "/static/css/main.cd908a6d.css.map",
-    "main.5ea0d9eb.js.map": "/static/js/main.5ea0d9eb.js.map"
+    "main.css": "/java22-avjs-slutprojekt-tobias-jaksties/static/css/main.cd908a6d.css",
+    "main.js": "/java22-avjs-slutprojekt-tobias-jaksties/static/js/main.5ea0d9eb.js",
+    "index.html": "/java22-avjs-slutprojekt-tobias-jaksties/index.html",
+    "main.cd908a6d.css.map": "/java22-avjs-slutprojekt-tobias-jaksties/static/css/main.cd908a6d.css.map",
+    "main.5ea0d9eb.js.map": "/java22-avjs-slutprojekt-tobias-jaksties/static/js/main.5ea0d9eb.js.map"
   },
   "entrypoints": [
     "static/css/main.cd908a6d.css",
